@@ -1,0 +1,7 @@
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capanegocio\bin\Debug\capanegocio.dll
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capanegocio\bin\Debug\capanegocio.pdb
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capanegocio\bin\Debug\capadato.dll
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capanegocio\bin\Debug\capadato.pdb
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capanegocio\obj\Debug\capanegocio.csprojResolveAssemblyReference.cache
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capanegocio\obj\Debug\capanegocio.dll
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capanegocio\obj\Debug\capanegocio.pdb

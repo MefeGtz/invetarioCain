@@ -1,0 +1,13 @@
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\bin\Debug\SCAINE.exe
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\bin\Debug\SCAINE.pdb
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\bin\Debug\capapresentacion.dll
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\bin\Debug\capanegocio.dll
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\bin\Debug\capadato.dll
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\bin\Debug\capapresentacion.pdb
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\bin\Debug\capanegocio.pdb
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\bin\Debug\capadato.pdb
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\obj\x86\Debug\SCAINE.csprojResolveAssemblyReference.cache
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\obj\x86\Debug\SCAINE.Properties.Resources.resources
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\obj\x86\Debug\SCAINE.csproj.GenerateResource.Cache
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\obj\x86\Debug\SCAINE.exe
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\SCAINE\obj\x86\Debug\SCAINE.pdb

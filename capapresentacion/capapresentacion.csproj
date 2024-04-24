@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06DC5E15-CE93-4AEE-8F52-25C9CBEDB29F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>capapresentacion</RootNamespace>
+    <AssemblyName>capapresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="categorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="categorias.Designer.cs">
+      <DependentUpon>categorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataSetprincipal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetprincipal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="formordenc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formordenc.Designer.cs">
+      <DependentUpon>formordenc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="imprimirsolicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="imprimirsolicitud.Designer.cs">
+      <DependentUpon>imprimirsolicitud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kardex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kardex.Designer.cs">
+      <DependentUpon>Kardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIP.Designer.cs">
+      <DependentUpon>MDIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pbodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pbodega.Designer.cs">
+      <DependentUpon>Pbodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos a solicitar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos a solicitar.Designer.cs">
+      <DependentUpon>Productos a solicitar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productosoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productosoc.Designer.cs">
+      <DependentUpon>Productosoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productospcant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productospcant.Designer.cs">
+      <DependentUpon>productospcant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productosvencen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productosvencen.Designer.cs">
+      <DependentUpon>productosvencen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="registrproductoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registrproductoc.Designer.cs">
+      <DependentUpon>registrproductoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportekardex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportekardex.Designer.cs">
+      <DependentUpon>Reportekardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitudes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Solicitudes.Designer.cs">
+      <DependentUpon>Solicitudes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vistacategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vistacategoria.Designer.cs">
+      <DependentUpon>vistacategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vistaordenc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vistaordenc.Designer.cs">
+      <DependentUpon>vistaordenc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vistaproductobod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vistaproductobod.Designer.cs">
+      <DependentUpon>vistaproductobod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vistaproductooc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vistaproductooc.Designer.cs">
+      <DependentUpon>vistaproductooc.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\capanegocio\capanegocio.csproj">
+      <Project>{1722D3B3-DB13-482C-9655-A59C50854432}</Project>
+      <Name>capanegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="categorias.resx">
+      <DependentUpon>categorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formordenc.resx">
+      <DependentUpon>formordenc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imprimirsolicitud.resx">
+      <DependentUpon>imprimirsolicitud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kardex.resx">
+      <DependentUpon>Kardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIP.resx">
+      <DependentUpon>MDIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pbodega.resx">
+      <DependentUpon>Pbodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos a solicitar.resx">
+      <DependentUpon>Productos a solicitar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productosoc.resx">
+      <DependentUpon>Productosoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productospcant.resx">
+      <DependentUpon>productospcant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productosvencen.resx">
+      <DependentUpon>productosvencen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registrproductoc.resx">
+      <DependentUpon>registrproductoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportekardex.resx">
+      <DependentUpon>Reportekardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptkardex.rdlc" />
+    <EmbeddedResource Include="solicitud.rdlc" />
+    <EmbeddedResource Include="Solicitudes.resx">
+      <DependentUpon>Solicitudes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vistacategoria.resx">
+      <DependentUpon>vistacategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vistaordenc.resx">
+      <DependentUpon>vistaordenc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vistaproductobod.resx">
+      <DependentUpon>vistaproductobod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vistaproductooc.resx">
+      <DependentUpon>vistaproductooc.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSetprincipal.xsc">
+      <DependentUpon>DataSetprincipal.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetprincipal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetprincipal.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetprincipal.xss">
+      <DependentUpon>DataSetprincipal.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar_p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar_p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imprimir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_37110.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azul_abstracto_ordenador_iphoneroscom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onebit_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F100011494.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compra_b1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inventory-maintenance_25374.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventasrealizadas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_update_15608.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iOS-8-fondo-de-pantalla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-Azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue-curves-abstract-background_m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48076.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\86847589-vector-abstracto-circuito-futurista-fondo-de-color-azul-oscuro-de-tecnología-informática-concepto-de-tec.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azul_abstracto_ordenador_iphoneroscom1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue-curves-abstract-background_m1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_94790646-stock-photo-natural-sackcloth-textured-for-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_113196612-stock-illustration-abstract-blue-and-green-color.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_120760306-stock-photo-drops-of-water-on-a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseno-fondo-azul-particulas-3d_1017-15410.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-Azul1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-cinemático-de-bg-loopable-66178278.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gris-hq-fondos-de-hierro-texturas-pantalla-ancha-im-genes-hd-502870.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iOS-8-fondo-de-pantalla1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tickets_restaurant-2-920x385.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondos-gratis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_spy_search_look_eyeball_icon-icons.com_55993.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\look23_41691.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-clock-icon_34472.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_in1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

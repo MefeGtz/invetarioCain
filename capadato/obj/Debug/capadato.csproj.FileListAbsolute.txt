@@ -1,0 +1,6 @@
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capadato\bin\Debug\capadato.dll
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capadato\bin\Debug\capadato.pdb
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capadato\obj\Debug\capadato.dll
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capadato\obj\Debug\capadato.pdb
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capadato\obj\Debug\capadato.csprojResolveAssemblyReference.cache
+C:\Users\Melvin\Documents\Visual Studio 2010\Projects\SCAINE\capadato\bin\Debug\capadato.dll.config
